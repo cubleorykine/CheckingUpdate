@@ -1,7 +1,7 @@
 local ForUpdate = {}
 
-function ForUpdate.CheckingUpdate()
-  return 'NotUpdate'
+function ForUpdate.CheckingUpdate(cac)
+  cac = 'NotUpdate'
 end
 
 return ForUpdate
